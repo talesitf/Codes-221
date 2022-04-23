@@ -95,6 +95,7 @@ header {
     padding: 1rem;
     text-align: center;
     margin-top: 20%;
+    margin-bottom: 20%;
 }
 
 
@@ -108,7 +109,7 @@ header {
 main{
     position: relative;
     top: 20%;
-    left: 5%;
+    left: 0%;
     align-items: center;
 }
 
