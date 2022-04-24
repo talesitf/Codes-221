@@ -1,0 +1,93 @@
+header{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 10%;
+    border-bottom: .1rem solid black;
+}
+
+h1{
+    position: absolute;
+    padding: 1rem;
+    font-size: xx-large;
+}
+
+.home{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 3rem;
+    width: auto;
+}
+
+.set{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 3rem;
+    width: auto;
+}
+
+.icon{
+    height: 1.8rem;
+    width: auto;
+}
+
+.stories{
+    border-radius: 50%;
+    height: 4rem;
+    width: auto;
+    padding: 10px;
+}
+
+h2{
+    padding: 1rem;
+    background-color: rgb(182, 181, 181);
+    border-radius: .5rem;
+    width: 80%;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    justify-content: space-evenly;
+}
+
+img{
+    margin: 0.3rem;
+}
+
+.linha{
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+    justify-content: space-evenly;
+}
+
+.coluna{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+body,main,html{
+    height: 100%;
+    width: 100%;
+}
+
+.linha2{
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+    justify-content: space-evenly;
+    width: 100%; 
+    left: 0;
+    align-self: flex-start;
+}
+
+.name{
+    height: 50%;
+    font-size: 120%;
+    text-align: center;
+}
