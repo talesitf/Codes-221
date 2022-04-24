@@ -1,3 +1,8 @@
+body,main,html{
+    height: 100%;
+    width: 100%;
+}
+
 header{
     position: relative;
     display: flex;
@@ -71,10 +76,6 @@ img{
     justify-content: space-evenly;
 }
 
-body,main,html{
-    height: 100%;
-    width: 100%;
-}
 
 .linha2{
     display: flex;
