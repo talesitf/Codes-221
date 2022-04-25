@@ -1,0 +1,75 @@
+main, body, html {
+    height: 100%;
+    width: 100%;
+}
+
+.linha {
+    display: flex;
+    flex-direction: row;
+}
+
+.img_farm {
+    height: 40%;
+    width: auto;
+    border-radius:3rem;
+    border: 1px solid black;
+}
+
+.coluna {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius:1rem;
+    border: 2px solid black;
+}
+
+header {
+    height: 15%;
+    width: 100%;
+    align-items: center;
+    border-bottom: 0.5rem solid;
+    padding-bottom: 1%;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+}
+
+.simbolo_config {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 1rem;
+    height: 3rem;
+    width: auto;   
+}
+.simbolo_home {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 1rem;
+    height: 3rem;
+    width: auto;   
+}
+
+.nome_CoChange {
+    font-size: xx-large;
+}
+
+.FarmaX {
+    font-size: 200%;
+}
+
+.deliehor {
+    font-size: 130%;
+}
+
+main {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+
+}
+
