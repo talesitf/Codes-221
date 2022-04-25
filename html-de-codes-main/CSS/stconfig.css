@@ -51,3 +51,7 @@ main{
 img{
     border-radius: 50%;
 }
+.language{
+    text-decoration: none;
+    color: black;
+}
