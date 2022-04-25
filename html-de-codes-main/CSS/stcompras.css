@@ -79,3 +79,7 @@ img{
 .nome{
     align-self: center;
 }
+.padrao {
+    text-decoration: none;
+    color: black;
+}
