@@ -1,0 +1,83 @@
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+header{
+    display: flex;
+    height: 10%;
+    border-bottom: 0.1rem solid black;
+    justify-content: space-around;  
+    border-bottom: 2rem;
+}
+.linha {
+    display: flex;
+    flex-direction: row;
+}
+.nome_status {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.nome_status li{
+    font-size: x-large; 
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+.pfp{
+    height: 80%;
+    width: auto;
+    padding: .3rem;
+}
+.dots img{
+    height: 1.5rem;
+    width: auto;
+}
+.home{
+    height: 80%;
+    width: auto;
+    align-self: center;
+}
+main{   
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    height: 85%;
+}
+.coluna{
+    display: flex;
+    flex-direction:column;
+}
+.me{
+    align-self: flex-end;
+}
+.they{
+    align-self: flex-start;
+}
+.chat{
+    height: 3rem;
+    width: auto;    
+}
+
+footer{
+    height: 8%;
+    border-top: .1rem solid black;
+}
+.typer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.typer img{
+    height: 100%;
+    width: auto;
+}
+.typing{
+    width: max-content;
+    border: .1rem solid;
+}
