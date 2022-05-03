@@ -32,6 +32,7 @@ body, html,main {
 }
 
 h1 {
+    font-family: 'Arvo', serif;
     width: 100%;
     text-align: center;
 }
@@ -49,11 +50,13 @@ header {
     font-size: xx-large;
     text-align: center;
     margin-top: 20%;
+    font-family: 'Arvo', serif;
 }
 
 .padrao {
     text-decoration: none;
     color: black;
+    font-family: 'Arvo', serif;
 }
 .simbolo_home {
     position: absolute;
