@@ -3,7 +3,9 @@ body, html,main {
     width: 100%;
 }
 
-
+body{
+    background-color: #7A8C98;
+}
 .simbolo_voltar {
     position: absolute;
     top: 0;
@@ -39,6 +41,7 @@ body, html,main {
 h1 {
     width: 100%;
     text-align: center;
+    font-family: 'Arvo', serif;
 }
 
 
@@ -49,6 +52,7 @@ header {
     border-bottom: 0.5rem solid;
     padding-bottom: 1%;
     font-size: xx-large;
+    background-color: #1da1f3;
 }
 
 
@@ -57,5 +61,6 @@ header {
     text-align: center;
     margin-top: 10%;
     margin-bottom: 10%;
-
+    font-family: 'Arvo', serif;
+    background-color: #f2f5f6;
 }

@@ -19,6 +19,7 @@ main, body, html {
 h1 {
     width: 100%;
     text-align: center;
+    font-family: 'Arvo', serif;
 }
 
 .simbolo_config {
@@ -40,6 +41,7 @@ h1 {
 
 .nome_CoChange {
     font-size: xx-large;
+    font-family: 'Arvo', serif;
 }
 
 header {
@@ -58,15 +60,18 @@ header {
     padding: 1rem;
     text-align: center;
     margin-top: 20%;
+    font-family: 'Arvo', serif;
 }
 .port {
     text-decoration: none;
     color: black;
+    font-family: 'Arvo', serif;
     
 }
 .ing {
     text-decoration: none;
     color: black;
+    font-family: 'Arvo', serif;
 }
 
 
