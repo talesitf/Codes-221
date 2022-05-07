@@ -29,6 +29,7 @@ main{
     flex-direction: row;
     justify-content: flex-start;
     padding: 1rem;
+    font-family: 'Arvo', serif;
 }
 .lista li{
     align-self: center;
@@ -41,6 +42,7 @@ main{
     display: flex;
     flex-direction: column;
     justify-content:first baseline;
+    font-family: 'Arvo', serif;
 }
 .coluna li{
     padding-top: 1rem;

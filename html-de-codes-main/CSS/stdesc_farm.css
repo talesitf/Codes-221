@@ -55,16 +55,19 @@ h1 {
 
 .nome_CoChange {
     font-size: xx-large;
+    font-family: 'Arvo', serif;
 }
 
 .FarmaX {
     font-size: 200%;
     padding: 1.3rem 0 1.3rem 0;
+    font-family: 'Arvo', serif;
 }
 
 .deliehor {
     font-size: 130%;
     padding: 1rem;
+    font-family: 'Arvo', serif;
 }
 
 main {
@@ -80,7 +83,8 @@ main {
     color: black;
     background-color: lightgray;
     padding: 0.5rem;
-    border: 1px solid black
+    border: 1px solid black;
+    font-family: 'Arvo', serif;
 }
 
 .teste {
