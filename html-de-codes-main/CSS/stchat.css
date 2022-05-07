@@ -17,7 +17,7 @@ header{
 .linha {
     display: flex;
     flex-direction: row;
-    background-color: #1B2936;
+    background-color: #233446;
 }
 
 .nome_status {
@@ -56,7 +56,7 @@ main{
     flex-direction: column;
     overflow: scroll;
     height: 78%;
-    background-color: #FEFEFE;
+    background-color: #1B2936;
 }
 .coluna{
     display: flex;
@@ -76,7 +76,7 @@ main{
 footer{
     height: 8%;
     border-top: .1rem solid black;
-    background-color: #CADAFB;
+    background-color: #233446;
 }
 .typer{
     display: flex;
