@@ -1,8 +1,11 @@
 html,body{
     height: 100%;
     width: 100%;
+    color: #f2f5f6;
 }
-
+body{
+    background-color: #1b2936;
+}
 header{
     position: relative;
     display: flex;
@@ -10,6 +13,7 @@ header{
     height: 10%;
     border-bottom: .1rem solid black;
     font-family: 'Arvo', serif;
+    background-color: #233446;
 }
 
 h1{

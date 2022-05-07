@@ -1,6 +1,11 @@
 main, body, html {
     height: 100%;
     width: 100%;
+    color: #f2f5f6;
+}
+
+body{
+    background-color: #1b2936;
 }
 
 .linha {
@@ -29,6 +34,7 @@ header {
     align-items: center;
     border-bottom: 0.5rem solid;
     padding-bottom: 1%;
+    background-color: #233446;
 }
 
 h1 {

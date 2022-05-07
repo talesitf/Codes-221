@@ -1,16 +1,18 @@
 body,main,html{
     height: 100%;
     width: 100%;
+    color: #f2f5f6;
 }
 body{
-    background-color: #7A8C98;
+    background-color: #1b2936;
 }
 header{
     position: relative;
     display: flex;
     justify-content: center;
     height: 10%;
-    border-bottom: .1rem solid black;
+    border-bottom: .1rem solid #f2f5f6;
+    background-color: #233446;
 }
 
 h1{

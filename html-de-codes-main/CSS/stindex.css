@@ -1,6 +1,11 @@
 body, html,main {
     height: 100%;
     width: 100%;
+    color: #f2f5f6;
+}
+
+body{
+    background-color: #1b2936;
 }
 
 .simbolo_config {
@@ -44,6 +49,7 @@ header {
     border-bottom: 0.5rem solid;
     padding-bottom: 1%;
     font-size: xx-large;
+    background-color: #233446;
 }
 
 .nome {
