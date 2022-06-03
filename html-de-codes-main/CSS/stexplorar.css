@@ -31,7 +31,6 @@ body{
     border-radius: 1rem;
     width: 60%;
     padding: 1rem;
-    border-color: #7a8c98
 }
 
 h1 {
@@ -52,19 +51,61 @@ header {
     background-color: #233446;
 }
 
-.nome {
+.emerg {
     font-size: xx-large;
     text-align: center;
-    margin-top: 20%;
+    margin-top: 16%;
+    margin-bottom: 5%;
     font-family: 'Arvo', serif;
     color: #f2f5f6;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
 }
-.emergency{
-    size-adjust: 40%;
+
+.img_emerg {
+    width: 22%;
+    height: auto;
+    margin-left: 5%;
 }
+
+.tur {
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 20%;
+    margin-bottom: 5%;
+    font-family: 'Arvo', serif;
+    color: #f2f5f6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img_tur {
+    width: 30%;
+    height: auto;
+}
+
+.comp {
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 20%;
+    margin-bottom: 5%;
+    font-family: 'Arvo', serif;
+    color: #f2f5f6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img_comp {
+    width: 30%;
+    height: auto;
+}
+
 .padrao {
     text-decoration: none;
     color: #f2f5f6;
@@ -82,3 +123,4 @@ header {
     font-size: xx-large;
     color: #f2f5f6;
 }
+

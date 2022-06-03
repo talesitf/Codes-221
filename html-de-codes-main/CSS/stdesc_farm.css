@@ -18,14 +18,15 @@ body{
     width: auto;
     border-radius:3rem;
     border: 1px solid black;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
 }
 
 .coluna {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-radius:1rem;
-    border: 2px solid black;
+    border-radius: 1rem;
 }
 
 header {
@@ -64,23 +65,23 @@ h1 {
     font-family: 'Arvo', serif;
 }
 
-.FarmaX {
-    font-size: 200%;
-    padding: 1.3rem 0 1.3rem 0;
-    font-family: 'Arvo', serif;
-}
 
-.deliehor {
+.delivery {
     font-size: 130%;
     padding: 1rem;
     font-family: 'Arvo', serif;
 }
 
+.hfunc {
+    font-size: 80%;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    font-family: 'Arvo', serif;
+}
+
 main {
     position: relative;
-    justify-content: center;
     align-items: center;
-    padding-top: 10%;
 
 }
 
