@@ -50,6 +50,13 @@ h1{
     padding: 10px;
     background-color: #f2f5f6;
 }
+.profile{
+    position: relative;
+    top: .5rem;
+    left: 0rem;
+    height: 6rem;
+    width: auto;
+}
 
 h2{
     padding: 1rem;
@@ -57,8 +64,13 @@ h2{
     border-radius: .5rem;
     width: 80%;
     font-family: 'Arvo', serif;
+    font-size: x-large;
 }
 
+.link{
+    color: white;
+    text-decoration: none;
+}
 main{
     display: flex;
     flex-direction: column;

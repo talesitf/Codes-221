@@ -13,7 +13,13 @@ header{
     justify-content: space-around; 
     background-color: #233446; 
 }
-
+.profile{
+    position: relative;
+    top: .5rem;
+    left: 0rem;
+    height: 6rem;
+    width: auto;
+}
 .linha {
     display: flex;
     flex-direction: row;
@@ -42,14 +48,28 @@ header{
     width: auto;
     padding: .3rem;
 }
+
+.online{
+    font-style: italic; 
+}
+.phone{
+    padding-top: 2.5rem;
+    padding-right: 1.5rem;
+    height: 1.5rem;
+    width: auto;
+}
 .dots img{
+    padding-top: 2.5rem;
+    padding-right: 0rem;
     height: 1.5rem;
     width: auto;
 }
 .home{
-    height: 80%;
+    position: absolute;
+    top: .3rem;
+    right: 0.5rem;
+    height: 3rem;
     width: auto;
-    align-self: center;
 }
 main{   
     display: flex;
@@ -84,6 +104,7 @@ footer{
     justify-content: space-evenly;
     align-items: center;
 }
+
 .typing{
     width: 40%;
     height: 1rem;
