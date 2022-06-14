@@ -71,48 +71,82 @@ header{
     height: 3rem;
     width: auto;
 }
-main{   
+main{
+    height: 75%;   
     display: flex;
     flex-direction: column;
     overflow: scroll;
-    height: 78%;
     background-color: #1B2936;
 }
 .coluna{
     display: flex;
     flex-direction:column;
 }
-.me{
-    align-self: flex-end;
-}
-.they{
-    align-self: flex-start;
-}
-.chat{
-    height: 3rem;
-    width: auto; 
-    margin-left: 1rem;     
+.msg-titulo, .msg-titulo-invertido{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
 }
 
+.msg-titulo-invertido{
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.msg-resposta, .msg-usuario{
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem 2.5rem;
+    padding: 1rem;
+    color: white;
+}
+.msg-usuario{
+    align-self: flex-start;
+}
+.msg-resposta{
+    align-self: flex-end;
+}
 .bot_iten{
     height: 3rem;
     width: auto;    
 }
+.bolha-usuario{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    background-color:#233446;
+    border: #1B2936 0.2rem solid;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.bolha-resposta{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    background-color: #233446;
+    border-color: #1B2936;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
 
 footer{
-    height: 8%;
-    border-top: .1rem solid black;
-    background-color: #233446;
-}
-.typer{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    padding: 0.2rem;
+    margin: 1.2rem;
+    background-color: #233446;
 }
-
-.typing{
-    width: 40%;
-    height: 1rem;
-    border: .1rem solid;
+.botao-enviar{
+    width: 20%;
+    font-size: 1.5rem;
+    color: white;
+    background-color: #1B2936;
+}
+input[type="text"]
+{
+    padding: 0.4rem;
+    font-size: 18px;
 }
