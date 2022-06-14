@@ -90,6 +90,12 @@ main{
 }
 .chat{
     height: 3rem;
+    width: auto; 
+    margin-left: 1rem;     
+}
+
+.bot_iten{
+    height: 3rem;
     width: auto;    
 }
 
