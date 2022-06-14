@@ -55,6 +55,7 @@ header {
     border-bottom: 0.5rem solid;
     padding-bottom: 1%;
     font-size: xx-large;
+    border-color: #7a8c98;
     background-color: #233446;
 }
 
@@ -74,6 +75,9 @@ header {
     text-decoration: none;
     color: #f2f5f6;
 }
-
+.nome_CoChange {
+    font-size: xx-large;
+    color: #f2f5f6;
+}
 
 
