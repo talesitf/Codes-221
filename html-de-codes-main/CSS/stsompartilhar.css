@@ -48,7 +48,8 @@ h1{
     height: 4rem;
     width: auto;
     padding: 10px;
-    background-color: #f2f5f6;
+    border: #f2f5f6 solid .05rem;
+    background-color: #233446;
 }
 .profile{
     position: relative;
@@ -60,8 +61,9 @@ h1{
 
 h2{
     padding: 1rem;
-    background-color: rgb(182, 181, 181);
+    background-color: #233446;
     border-radius: .5rem;
+    border: #f2f5f6 solid .05rem;
     width: 80%;
     font-family: 'Arvo', serif;
     font-size: x-large;
